@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap Stylesheet -->
+    <!-- Bootstrap Stylesheet and Icons -->
     <link rel="stylesheet" href="/assets/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 
     <!-- Bootstrap Js -->
     <script src="/assets/bootstrap/dist/js/bootstrap.js"></script>
@@ -21,16 +22,62 @@
     <meta rel="apple-touch-icon" href=" ">
     <meta rel="icon" href=" ">
 
-    <title>Bline</title>
+    <title>Fluid API</title>
     <meta name="description" content="Plataforma focada em fornecer APIS de alto impacto e qualidade para acelerar o empreendendorismo">
 
 
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <i class="bi bi-droplet-half"></i>
+                Fluid <span class="indigo">Api</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Ínicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      API's
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Comunidade</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li class="dropdown-item-text">Em Breve</li>
+                      <li><a class="dropdown-item disabled" href="#">Bloco de Notas</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Medium Blog | Em Breve</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
     <main>
-        <h1 style="display: flex; justify-content: center;">Esse é apenas o Início</h1>
+        <h1>Main</h1>
     </main>
-    <footer></footer>
+
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
 </body>
 </html>

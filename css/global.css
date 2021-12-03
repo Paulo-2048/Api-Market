@@ -1,0 +1,25 @@
+
+
+:root {
+    /* CSS HSL */
+    --dark-bg: #191622;
+    --light-bg: #fffff0;
+    --primary: #D9A030;
+    --secundary: #2D848C;
+    
+}
+
+
+/* * {
+    border-style: dashed;
+    border-color: red;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .brand-span {
+    color: var(--primary);
+} */
